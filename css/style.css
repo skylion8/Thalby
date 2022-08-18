@@ -55,3 +55,59 @@ header .logo{
     margin-left: -40px;
     top: 13px;
 }
+.main_baner{
+    padding: 80px 0;
+    background-color:#F0EFEB;
+    position: relative;
+}
+.main_baner h1{
+    font: 60px 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    color: #000000;
+    margin-bottom: 42px;
+}
+.main_baner p{
+    font: 24px 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 26px;
+}
+.main_baner a{
+    font: 17px 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 7px 23px;
+    text-decoration: none;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 100px;
+}
+.main_baner img{
+    position: absolute;
+    right: 60px;
+    top: 0;
+}
+.people{
+    padding-top: 76px;
+    padding-bottom: 61px;
+    background: rgba(204, 204, 204, 0.3);
+    display: flex;
+    align-items: center;
+}
+.people .img{
+    max-width: 385px;
+    margin-right: 50px;
+}
+.people .img img{
+    width: 100%;
+    display: block;
+}
+.people .descriptoin{
+    max-width: 390px;
+}
