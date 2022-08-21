@@ -177,3 +177,74 @@ header .logo{
     width: 100%;
     display: block;
 }
+.guides{
+    padding-top: 60px;
+    padding-bottom: 248px;
+    background: #FFFFFF;
+}
+.guides_text{
+    margin: auto;
+}
+.guides_text h2{
+    font:36px 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+
+}
+.guides_text h2:first-of-type{
+    margin-bottom: 27px;
+}
+.guides_text h2:last-of-type{
+    margin-bottom: 52px;
+}
+.guides_text p{
+    font:36px 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    margin: auto;
+}
+.guides_text p:first-of-type{
+    margin-bottom: 47px;
+    max-width: 632px;
+}
+.guides_text p:last-of-type{
+    margin-bottom: 88px;
+}
+.best_sellers{
+    text-align: center;
+    justify-content: center;
+}
+.best_sellers h3{
+    font:17px 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 17px;
+    margin-top: 26px;
+}
+.best_sellers p{
+    font:17px 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000000;
+}
+.best_sellers p:last-of-type{
+    margin-bottom: 10px;
+}
+.best_sellers a{
+    font:17px 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+}
