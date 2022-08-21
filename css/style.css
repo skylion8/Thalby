@@ -145,6 +145,9 @@ header .logo{
     align-items: center;
     text-align: right;
 }
+.people_second .descriptoin{
+    max-width: 513px;
+}
 .people_second .descriptoin.right{
     text-align: right;
 }
@@ -163,11 +166,14 @@ header .logo{
     display: flex;
     align-items: center;
 }
+.people_third .descriptoin{
+    max-width: 538px;
+}
 .people_third .img{
-    margin-left: 50px;
+    margin-right: 50px;
     max-width: 385px;
 }
-.people_second .img img{
+.people_third .img img{
     width: 100%;
     display: block;
 }
