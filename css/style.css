@@ -219,7 +219,10 @@ header .logo{
 }
 .best_sellers{
     text-align: center;
-    justify-content: center;
+    justify-content: space-between;
+    max-width: 1124px;
+    align-items: center;
+    margin: auto;
 }
 .best_sellers h3{
     font:17px 'Roboto', sans-serif;
@@ -247,4 +250,92 @@ header .logo{
     line-height: 20px;
     text-decoration-line: underline;
     color: #000000;
+}
+.thalby_guides{
+    padding-top: 190px;
+    padding-bottom: 290px;
+    background: #FFFFFF;
+}
+.thalby_guides h3{
+    padding-bottom: 69px;
+    font:36px 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+}
+.features{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto 163px;
+    max-width: 700px;
+}
+.thalby_guides h2{
+    font:36px 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+}
+.features img{
+    display: block;
+    margin: auto;
+    padding-bottom: 26px;
+}
+.features p{
+    font:30px 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    max-width: 200px;
+}
+.fascinating{
+    background-color: #F0F0F0;
+    padding-bottom: 52px;
+}
+.fascinating .item{
+    max-width: 288px;
+    text-align: center;
+    margin-top: -188px;
+}
+.fascinating .item h4{
+    font:24px 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.6px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.fascinating .item p{
+    font:19px 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 44px;
+}
+.fascinating .item p span{
+    font-size: 20px;
+    line-height: 23px;
+    display: block;
+}
+.fascinating .item a{
+    font:18px 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.fascinating .item img{
+    padding-bottom: 35px;
+    display: block;
+    width: 100%;
 }
