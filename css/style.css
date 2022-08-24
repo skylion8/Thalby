@@ -339,3 +339,120 @@ header .logo{
     display: block;
     width: 100%;
 }
+.order{
+    padding-top: 79px;
+    padding-bottom: 98px;
+    text-align: center;
+}
+.order h2{
+    font:36px 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 9px;
+}
+.order p{
+    font:17px 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 26px;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 366px;
+    margin: auto;
+}
+.form input{
+    font:14px 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    color: #A0A0A0;
+    height: 39px;
+    border: 1px solid #000000;
+    border-radius: 0px;
+    padding-left: 8px;
+    width: 100%;
+}
+.first_name{
+    margin-bottom: 18px;
+    width: 153px;
+}
+.last_name{
+    margin-bottom: 18px;
+    width: 153px;
+}
+.email{
+    width: 366px;
+    margin-bottom: 23px;
+}
+.button{
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    font:14px 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 7px 23px;
+    margin: auto;
+    outline: none;
+}
+.footer{
+    background: #020202;
+    padding-top: 51px;
+    padding-bottom: 16px;
+
+}
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.footer_logo{
+    display: flex;
+    padding-top: 50px;
+    max-width: 129px;
+    justify-content: space-between;
+}
+.links{
+    display: flex;
+    width: 430px;
+    justify-content: space-between
+}
+.footer ul{
+    list-style: none;
+}
+.footer li{
+    margin-bottom: 12px;
+}
+.footer li a{
+    font:14px 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer li:first-of-type{
+    margin-bottom: 36px;
+}
+.footer p{
+    font:14px 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
