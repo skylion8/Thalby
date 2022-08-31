@@ -58,8 +58,18 @@ header .logo{
 }
 header .search{
     background: none;
-    list-style: none;
     border: none;
+}
+.ui-dialog .ui-dialog-title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1C1B1B;
+}
+.ui-button .ui-icon{
+    background-color: white;
 }
 .main_baner{
     padding: 90px 0;
