@@ -56,6 +56,11 @@ header .logo{
     margin-left: -40px;
     top: 13px;
 }
+header .search{
+    background: none;
+    list-style: none;
+    border: none;
+}
 .main_baner{
     padding: 90px 0;
     background-color:#F0EFEB;
@@ -110,6 +115,7 @@ header .logo{
     width: 100%;
     display: block;
 }
+
 .people_first .descriptoin{
     max-width: 498px;
 }

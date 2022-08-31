@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 
@@ -41,17 +43,24 @@
         <ul class="d-flex align-center">
             <li>
                 <a href="#" title="instagram">
-                    <img src="img/Inst.svg" alt="insta">
+                    <img src="img/Instagram.svg" alt="insta">
                 </a>
             </li>
             <li>
-                <a href="#" title="search">
-                    <img src="img/Search.svg" alt="search">
-                </a>
+                <div id="dialog" title="Search">
+                    <div class="search_window">
+                        <input  type="text" name="Search" id="Search" placeholder="What you want search?"></div>
+                </div>
+
+                <button id="opener" class="search">
+                    <a href="#" title="Search">
+                    <img src="img/Search.svg" alt="search"></a>
+                </button>
+
             </li>
             <li>
                 <a href="#" title="shop">
-                    <img src="img/Close.svg" alt="shop">
+                    <img src="img/Closer.svg" alt="shop">
                 </a>
             </li>
         </ul>
@@ -229,5 +238,7 @@
 <script src="js/owl.carousel.js"></script>
 <script src="js/script.js"></script>
 <script src="https://kit.fontawesome.com/9bb7cecad3.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 </body>
 </html>
